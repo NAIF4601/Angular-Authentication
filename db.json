@@ -8,8 +8,8 @@
       "gender": "male",
       "role": "admin",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "Hyd"
       }
     },
     {
@@ -20,8 +20,8 @@
       "gender": "male",
       "role": "user",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "chennai"
       }
     },
     {
@@ -32,8 +32,8 @@
       "gender": "male",
       "role": "tech",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "Mumbai"
       }
     },
     {
@@ -44,9 +44,45 @@
       "gender": "male",
       "role": "tech",
       "isactive": true,
-      "address":{
-        "area":"banglore"
+      "address": {
+        "area": "banglore"
       }
+    },
+    {
+      "id": "Daroga",
+      "name": "Daroga",
+      "password": "Daroga111$",
+      "email": "Daroga@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "aryan",
+      "name": "aryan",
+      "password": "Aryan111$",
+      "email": "aryan@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "sattya",
+      "name": "sattya",
+      "password": "Sattya111@",
+      "email": "sattya@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "priya",
+      "name": "priya",
+      "password": "Priya$123",
+      "email": "priya@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": true
     }
   ],
   "role": [
@@ -73,59 +109,57 @@
     {
       "role": "admin",
       "menu": "user",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "admin",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "user",
       "menu": "user",
-      "haveedit":false,
-      "haveadd":false,
-      "havedelete":false
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
     },
     {
       "role": "user",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":false
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
     }
-    
-    
   ],
-  "customer":[
+  "customer": [
     {
-      "id":1,
-      "name":"rakhesh",
-      "Creditlimit":1000
+      "id": 1,
+      "name": "Ramesh",
+      "Creditlimit": 1000
     },
     {
-      "id":2,
-      "name":"rahul",
-      "Creditlimit":1000
+      "id": 2,
+      "name": "Danish",
+      "Creditlimit": 1000
     },
     {
-      "id":3,
-      "name":"ramesh",
-      "Creditlimit":1000
+      "id": 3,
+      "name": "Daroga",
+      "Creditlimit": 1000
     },
     {
-      "id":4,
-      "name":"rahim",
-      "Creditlimit":1000
+      "id": 4,
+      "name": "rahim",
+      "Creditlimit": 1000
     },
     {
-      "id":5,
-      "name":"robert",
-      "Creditlimit":1000
+      "id": 5,
+      "name": "aryan",
+      "Creditlimit": 1000
     }
   ]
 }
